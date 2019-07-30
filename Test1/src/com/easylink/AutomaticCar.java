@@ -20,12 +20,13 @@ public class AutomaticCar implements AutoFeatures {
 	@Override
 	public void Drive(int speed) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("YOur Speed is set to "+ speed);
 	}
 
 	@Override
 	public void WakeUp() {
 		// TODO Auto-generated method stub
+		System.out.println("Wake Up Destination Arrived");
 		
 	}
 	

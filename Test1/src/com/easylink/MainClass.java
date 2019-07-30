@@ -26,6 +26,7 @@ public class MainClass  {
 		AutomaticCar car= new AutomaticCar();
 		String destinationName;
 		int hourDistance;
+		int speed;
 		Scanner sc=new Scanner(System.in);
 		
 		System.out.println("Please Enter Your destination");
@@ -33,6 +34,9 @@ public class MainClass  {
 		
 		System.out.println("Please Enter Your Time");
 		hourDistance=sc.nextInt();
+		
+		System.out.println("Please Enter the Speed");
+		speed=sc.nextInt();
 		
 		
 		
